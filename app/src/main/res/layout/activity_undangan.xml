@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".produk.undangan.UndanganActivity"
+    style="@style/ScreenBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/nav_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="68dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvUndangan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <!-- row 2
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:weightSum="3">
+
+                 col 1
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/undangana5"
+                        android:layout_width="111dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/undangan_a5" />
+
+                    <ImageView
+                        android:id="@+id/undanganalipatdua"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="111dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/undangana4_lipatdua" />
+                </LinearLayout>
+                 col 1 end
+                 col 2
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/undangana5_double"
+                        android:layout_width="116dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/undangan_a5double"/>
+
+                    <ImageView
+                        android:id="@+id/undanganalipattiga"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="111dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/undanganlipat3" />
+
+                </LinearLayout>
+                 col 2 end
+                 col 3
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/undangana5_tripel"
+                        android:layout_width="116dp"
+                        android:layout_height="109dp"
+                        android:src="@drawable/undangana5_tripel" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+             col 3 end -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

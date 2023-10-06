@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SENDTO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyDigitalPrinting"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.itemstiker.ItemStickerProduk"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemstiker.ItemStickerUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itembanner.ItemBannerUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itembanner.ItemBannerProduk"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itembanner.ItemBannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itembrosur.ItemBrosurUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itembrosur.ItemBrosurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itembrosur.ItemBrosurProduk"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemidcard.ItemIdcardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemidcard.ItemIdcardProduk"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemidcard.ItemIdcardUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemsertifikat.ItemSertifikatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemsertifikat.ItemSertifikatProduk"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemsertifikat.ItemSertifikatUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".admin.itemkeranjang.ItemKeranjangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pesanan.PilihanPesanan"
+            android:exported="false" />
+        <activity
+            android:name=".pesanan.PesananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profil.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profil.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.brosur.CetakbrosurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.brosur.OpsibrosurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.PembayaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".keranjang.KeranjangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.ResiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.PemesananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.FakturActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.DikirimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.DikemasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profil.AlamatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.NewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".profil.DataalamatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profil.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.ChangepasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.opsi.OpsikalenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profil.MyprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.spesifikasi.SpesifikasisertifikatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.cetak.CetakdesainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.opsi.OpsisertifikatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.cetak.CetakstikerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.cetak.CetakundanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.idcard.CetakidcardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.opsi.OpsipesananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.opsi.OpsiundanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.opsi.OpsistickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.opsi.OpsiidcardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.spesifikasi.SpecstickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.idcard.SpecidcardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.spesifikasi.SpecdesainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.spesifikasi.SpecundanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.poster.PosterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.sertifikat.SertifikatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.brosur.BrosurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.idcard.IdCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.stiker.StickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.banner.BannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".produk.undangan.UndanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
